@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface HelpPrototypeViewController : UIViewController {
+
+	UIView *_square_red;
+	UIView *_square_green;
+	UIView *_square_blue;
 
 }
 
